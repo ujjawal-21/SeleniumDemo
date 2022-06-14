@@ -22,7 +22,7 @@ public class AppTest {
 	@Test
 	public void Test1() {
 		WebElement element = driver.findElement(By.name("q"));
-		element.sendKeys("Java");
+		element.sendKeys("JavaScript");
 		driver.findElement(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@name='btnK']")).click();
 	}
 	
