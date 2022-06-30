@@ -25,7 +25,8 @@ public class AppTest {
 		WebElement element = driver.findElement(By.name("q"));
 		element.sendKeys("Java");
 		element.clear();
-		element.sendKeys("ujjuwal");
+		element.sendKeys("ujjawal Anand");
+		element.clear();
 	}
 	@AfterMethod
 	
